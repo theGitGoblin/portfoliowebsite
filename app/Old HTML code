@@ -1,0 +1,64 @@
+import { colors } from "@mui/material";
+import Image from "next/image";
+
+
+
+export default function Home() {
+  return (
+    
+            <link rel="stylesheet" href="Styling.css" />
+            <title> Jeron Clarke's Personal Portfolio website</title>
+                <body>
+                <img src="Jphoto.png" alt="Professional Photo"></img>
+                    <h1>
+                        Jeron Clarke
+                    </h1>
+                    <div>
+
+                        <h2>
+                            
+                        </h2>
+                            <p className="summary">
+                           
+                            </p>
+                    </div> 
+
+            
+
+
+                    
+
+                    
+
+                    <h5>
+                            My Link
+                                <ul>
+                                    <li>
+                                    <a className="Personal" href= "https://www.linkedin.com/in/jeron-clarke/"> My LinkedIn</a>
+                                    </li>
+                                    <li>
+                                    <a className="Personal" href="https://github.com/Codeizfun"> My Github </a>
+                                        </li>
+                                    <li>
+                                    <a className="Personal"href="mailto:jeronclarke09@gmail.com">Send email</a>
+                                        </li>        
+                            
+                            </ul> 
+                    </h5>
+
+                   
+
+                
+                
+                
+                
+                
+                
+                </body>    
+        
+        
+        
+z
+  )
+      ;
+}
