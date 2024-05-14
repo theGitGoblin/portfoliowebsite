@@ -1,4 +1,4 @@
-import { colors } from "@mui/material";
+i                                 </li>        mport { colors } from "@mui/material";
 import Image from "next/image";
 
 
@@ -44,7 +44,7 @@ export default function Home() {
                                         </li>
                                     <li>
                                     <a className="Personal"href="mailto:jeronclarke09@gmail.com">Send email</a>
-                                        </li>        
+       
                             
                             </ul> 
                     </h5>
