@@ -6,9 +6,6 @@ import starpixel from "/app/Icons/starpixel.gif"
 export default function Home() {
   return (
     <main className="bg-black min-h-screen relative overflow-auto">
-      <Head>
-        <link href="globals.css" rel="stylesheet" />
-      </Head>
       <Image alt="Stars" src={starpixel} quality={100} fill sizes="100vw" style={{ objectFit: 'cover' }} className="Static"/>
 
       <div className="fixed top-5 right-5 flex space-x-4 z-50">
