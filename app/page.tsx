@@ -33,7 +33,7 @@ export default function Home() {
         
         <div className="relative w-full text-left p-8  bg-opacity-75 text-white">
         <h2 className="text-4xl font-bold">About Me</h2>
-          <p className="mt-4 font-mono static"> I'm a "retired" videogame enthusiast and a budding software engineer. </p>
+          <p className="mt-4 font-mono static"> I&apos;m a &rdquo;retired&rdquo; videogame enthusiast and a budding software engineer. </p>
           <p className="mt-4 font-mono static"> I have recently pivoted from pre-med to a career in technology due to my ever-increasing interest in the field. </p>
           <p className="mt-4 font-mono static"> As of right now my skills/softwares consists of : <strong>HTML, CSS, TypeScript, Python, SpringBoot, React, Tailwind, Django.</strong></p>
           
