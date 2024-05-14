@@ -25,12 +25,12 @@ export default function Home() {
 
       <div className="flex justify-between items-center h-full p-8">
         <img src="https://i.imgur.com/4EHdI7v.jpeg" className="w-80 h-100 object-cover rounded-lg transition-transform transform hover:scale-110" alt="Profile" />
-        <div className=" flex text-center text-white font-extrabold font-mono text-6xl top-0">
-            <h1 className="inline-block animate-bounce animation-delay-0">J</h1>
-            <h1 className="inline-block animate-bounce animation-delay-100">e</h1>
-            <h1 className="inline-block animate-bounce animation-delay-200">r</h1>
-            <h1 className="inline-block animate-bounce animation-delay-300">o</h1>
-            <h1 className="inline-block animate-bounce animation-delay-400">n</h1>
+        <div className=" flex text-center text-white font-extrabold font-mono text-6xl top-0 ">
+            <h1 className=" animate-bounce animation-delay-0">J</h1>
+            <h1 className=" animate-bounce animation-delay-100">e</h1>
+            <h1 className=" animate-bounce animation-delay-200">r</h1>
+            <h1 className=" animate-bounce animation-delay-300">o</h1>
+            <h1 className=" animate-bounce animation-delay-400">n</h1>
           </div>
         
         
