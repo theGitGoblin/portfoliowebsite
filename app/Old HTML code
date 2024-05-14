@@ -1,47 +1,67 @@
-<main className="bg-black min-h-screen relative">
+import { colors } from "@mui/material";
+import Image from "next/image";
 
-    <Head>
-        <link href="globals.css" rel="stylesheet" />
-    </Head>
-    <Image alt="Stars" src={starpixel} quality={100} fill sizes="100vw" style={{ objectFit: 'cover' }} />
 
-    <div className="fixed top-5 right-5 flex space-x-4 z-50">
-        <a className="transition-transform transform hover:scale-125" href="https://www.linkedin.com/in/jeron-clarke/"
-            target="_blank" rel="noopener noreferrer">
-            <img className="w-8 h-8 rounded-full"
-                src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" />
-        </a>
-        <a className="transition-transform transform hover:scale-125" href="https://github.com/Codeizfun"
-            target="_blank" rel="noopener noreferrer">
-            <img className="w-8 h-8 rounded-full"
-                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
-        </a>
-        <a className="transition-transform transform hover:scale-125" href="mailto:jeronclarke09@gmail.com">
-            <img className="w-8 h-8 rounded-full"
-                src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email" />
-        </a>
-    </div>
 
-    <div className="flex justify-between items-center h-full p-8">
-        <img src="https://i.imgur.com/4EHdI7v.jpeg"
-            className="w-80 h-100 object-cover rounded-full transition-transform transform hover:scale-110"
-            alt="Profile" />
 
-        <div className="text-center text-white font-extrabold font-mono text-6xl">
-            <span>Hi, <br />I'm</span>
 
-            <div className="flex justify-center items-center mt-4">
-                <h1 className="inline-block animate-bounce animation-delay-100">J</h1>
-                <h1 className="inline-block animate-bounce animation-delay-100">e</h1>
-                <h1 className="inline-block animate-bounce animation-delay-100">r</h1>
-                <h1 className="inline-block animate-bounce animation-delay-100">o</h1>
-                <h1 className="inline-block animate-bounce animation-delay-100">n</h1>
-            </div>
-        </div>
-    </div>
 
-    <div className="absolute bottom-0 w-full text-center p-8 bg-black bg-opacity-75 text-white">
-        <h2 className="text-4xl font-bold">About Me</h2>
-        <p className="mt-4">I'm a software developer with a passion for building web applications...</p>
-    </div>
-</main>
+export default function Home() {
+  return (
+    
+            <link rel="stylesheet" href="Styling.css" />
+            <title> Jeron Clarke's Personal Portfolio website</title>
+                <body>
+                <img src="Jphoto.png" alt="Professional Photo"></img>
+                    <h1>
+                        Jeron Clarke
+                    </h1>
+                    <div>
+
+                        <h2>
+                            
+                        </h2>
+                            <p className="summary">
+                           
+                            </p>
+                    </div> 
+
+            
+
+
+                    
+
+                    
+
+                    <h5>
+                            My Link
+                                <ul>
+                                    <li>
+                                    <a className="Personal" href= "https://www.linkedin.com/in/jeron-clarke/"> My LinkedIn</a>
+                                    </li>
+                                    <li>
+                                    <a className="Personal" href="https://github.com/Codeizfun"> My Github </a>
+                                        </li>
+                                    <li>
+                                    <a className="Personal"href="mailto:jeronclarke09@gmail.com">Send email</a>
+                                        </li>        
+                            
+                            </ul> 
+                    </h5>
+
+                   
+
+                
+                
+                
+                
+                
+                
+                </body>    
+        
+        
+        
+z
+  )
+      ;
+}
