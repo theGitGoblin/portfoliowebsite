@@ -17,7 +17,7 @@ export default function Home() {
       <a className="transition-transform transform hover:scale-125" href="https://github.com/Codeizfun" target="_blank" rel="noopener noreferrer">
         <img className="w-8 h-8 rounded-full" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
       </a>
-      <a className="transition-transform transform hover:scale-125" href="mailto:youremail@example.com">
+      <a className="transition-transform transform hover:scale-125" href="mailto:jeronclarke09@gmail.com">
         <img className="w-8 h-8 rounded-full" src="https://www.flaticon.com/free-icon/gmail_732200?term=mail&page=1&position=9&origin=tag&related_id=732200" alt="Email" />
       </a>
     </div>
