@@ -55,8 +55,8 @@ export default function Home() {
           <h2 className="text-4xl font-bold">About Me</h2>
             <p className="mt-4 font-mono static"> I&apos;m a &rdquo;retired&rdquo; videogame enthusiast and a budding software engineer with aspirations to become a fullstack engineer. </p>
             <p className="mt-4 font-mono static"> I have recently pivoted from pre-med to a career in technology due to my ever-increasing interest in the field. </p>
-            <p className="mt-4 font-mono static"> As of right now my skills/softwares consists of : <strong>HTML, CSS, TypeScript, Python, SpringBoot, React, Tailwind, Django.</strong></p>
-            <p className="text-right">If you're wondering the time is now: </p>
+            <p className="mt-4 font-mono static"> As of right now my skills/softwares consists of : <strong>HTML, CSS, TypeScript, Python, SpringBoot, React, Tailwind, Django,and Java.</strong></p>
+            <p className="text-right">If you&apos;re wondering the time is now: </p>
             
              <div className="text-right font-bold font-mono"><Clock></Clock></div> 
 
