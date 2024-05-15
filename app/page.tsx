@@ -2,7 +2,6 @@
 import Image from "next/image";
 import starpixel from "/app/Icons/starpixel.gif";
 import React from "react";
-import { Timer } from "@mui/icons-material";
 
 const Clock = () => {
     const d = new Date();
